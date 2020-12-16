@@ -1,0 +1,52 @@
+@import "./reset.css";
+@import "./fonts.css";
+
+section {
+  background-color: #fff;
+  padding: 100px 0;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #333033;
+}
+h2 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+}
+.description-text {
+  opacity: 0.8;
+}
+
+.user-card {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: center;
+  padding: 0 15px;
+  margin-bottom: 50px;
+}
+
+.icon::before {
+  font-size: 60px;
+  font-family: "Elegant theme";
+  color: #e52e2e;
+}
+.icon-tools::before {
+  content: "\e033";
+}
+.icon-desktop::before {
+  content: "\e002";
+}
+.icon-lightbulb::before {
+  content: "\e030";
+}
+.icon-genius::before {
+  content: "\e046";
+}
+.icon-briefcase::before {
+  content: "\e015";
+}
+.icon-download::before {
+  content: "\e04d";
+}

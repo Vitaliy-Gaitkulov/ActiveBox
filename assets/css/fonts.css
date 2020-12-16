@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "Elegant theme";
+  src: url("../fonts/elegant-theme-line.eot") format("eot"),
+         url("../fonts/elegant-theme-line.svg") format("svg"),
+         url("../fonts/elegant-theme-line.ttf") format("ttf"),
+         url("../fonts/elegant-theme-line.woff") format("woff");
+ }
+
+@font-face{
+  font-family: "Raleway";
+  src: url("../fonts/Raleway/Raleway-VariableFont_wght.ttf") format("opentype");
+  font-style: normal;
+}
+
